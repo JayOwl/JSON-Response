@@ -1,0 +1,28 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <script src="scripts/jquery-2.2.0.js"></script>
+    <script src="scripts/app.js"></script>
+</head>
+<body>
+    <h3>Search by Manufacturer Name</h3>
+    <div>
+        <label for="mfgIdFind">Find Manufacturer by Name:</label>
+        <input type="text" id="mfgIdFind" size="5" />
+        <input type="button" value="Search" onclick="find();" />
+        <p id="manufacturerFind" />
+    </div>
+
+
+    <h3>Sends JSON and Receives JSON</h3>
+    <div>
+    <span id='value2'>(Result)<br /></span>
+    <input type="button" value="Get" onclick="sendData()" />
+    </div>
+
+
+</body>
+</html>
